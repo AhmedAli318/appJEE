@@ -1,0 +1,34 @@
+type Query {
+    users: [User]
+    user(id:ID) : User
+}
+
+type User {
+    id: ID,
+    firstName: String,
+    lastName: String,
+    email: String,
+    birthDate: String,
+    CIN: String,
+    phoneNumber: String,
+    address : String,
+    gender: String,
+    enabled: String
+}
+
+type Mutation{
+    addUser(userDTORequest : UserDTORequest): User
+    updateUser(id:ID, user:UserDTORequest): User
+    deleteUser(id: ID): Boolean
+}
+
+input UserDTORequest {
+    firstName: String,
+    lastName: String,
+    email: String,
+    birthDate: String,
+    CIN: String,
+    phoneNumber: String,
+    address : String,
+    gender: String
+}
