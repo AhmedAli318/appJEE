@@ -10,15 +10,15 @@
         <module name="userMS" />
         <module name="eureka-Service" />
         <module name="OrganisationMS" />
+        <module name="appJEE" />
+        <module name="Config-Server" />
         <module name="gateway-Service" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="appJEE" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Config-Server" options="-parameters" />
       <module name="OrganisationMS" options="-parameters" />
       <module name="appJEE" options="-parameters" />
       <module name="eureka-Service" options="-parameters" />
