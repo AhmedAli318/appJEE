@@ -7,22 +7,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="DonationMS" />
         <module name="userMS" />
         <module name="eureka-Service" />
         <module name="OrganisationMS" />
+        <module name="Config-Server" />
+        <module name="demo" />
         <module name="gateway-Service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="appJEE" target="17" />
       <module name="ConfigServer" target="17" />
+      <module name="demo" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Config-Server" options="-parameters" />
       <module name="ConfigServer" options="-parameters" />
+      <module name="DonationMS" options="-parameters" />
       <module name="OrganisationMS" options="-parameters" />
       <module name="appJEE" options="-parameters" />
+      <module name="demo" options="-parameters" />
       <module name="eureka-Service" options="-parameters" />
       <module name="gateway-Service" options="-parameters" />
       <module name="userMS" options="-parameters" />

@@ -12,6 +12,9 @@
         <option value="$PROJECT_DIR$/eureka-Service/appJEE/pom.xml" />
         <option value="$PROJECT_DIR$/appJEE/pom.xml" />
         <option value="$PROJECT_DIR$/Config-Server/Config-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/Config-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/DonationMS/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
