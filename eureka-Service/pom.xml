@@ -8,11 +8,11 @@
         <version>3.3.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.example</groupId>
-    <artifactId>eureka-service</artifactId>
+    <groupId>org.example</groupId>
+    <artifactId>discover-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eureka-discovery</name>
-    <description>eureka-discovery</description>
+    <name>discover-service</name>
+    <description>discover-service</description>
     <url/>
     <licenses>
         <license/>
@@ -44,6 +44,13 @@
     </dependencies>
     <dependencyManagement>
         <dependencies>
+            <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+                <version>4.1.3</version>
+            </dependency>
+
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>

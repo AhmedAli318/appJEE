@@ -34,7 +34,7 @@ public class DonationMsApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        Long userId = 1L;
+        /*Long userId = 1L;
         Long organisationId = 1L;
         User user = userRestClient.getUserById(userId);
         Organisation organisation = organisationRestClient.getOrganisationById(organisationId);
@@ -45,6 +45,6 @@ public class DonationMsApplication implements CommandLineRunner {
         donation.setIdOrganisation(organisation.getId());
         //donation.setUser(user);
         //donation.setOrganisation(organisation);
-        donationRepo.save(donation);
+        donationRepo.save(donation);*/
     }
 }
