@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/Config-Server/pom.xml" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/DonationMS/pom.xml" />
+        <option value="$PROJECT_DIR$/Prometheus-Service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

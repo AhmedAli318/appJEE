@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DonationMS" />
+        <module name="Prometheus-Service" />
         <module name="userMS" />
         <module name="eureka-Service" />
         <module name="OrganisationMS" />
@@ -28,6 +29,7 @@
       <module name="ConfigServer" options="-parameters" />
       <module name="DonationMS" options="-parameters" />
       <module name="OrganisationMS" options="-parameters" />
+      <module name="Prometheus-Service" options="-parameters" />
       <module name="appJEE" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="eureka-Service" options="-parameters" />
