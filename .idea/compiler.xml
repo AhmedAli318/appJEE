@@ -8,6 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="DonationMS" />
+        <module name="discover-service" />
+        <module name="organisationMS" />
+        <module name="Prometheus_Service" />
         <module name="Prometheus-Service" />
         <module name="userMS" />
         <module name="eureka-Service" />
@@ -15,10 +18,11 @@
         <module name="Config-Server" />
         <module name="demo" />
         <module name="gateway-Service" />
+        <module name="donationMS" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="appJEE" target="17" />
+      <module name="appJEE" target="1.5" />
       <module name="ConfigServer" target="17" />
       <module name="demo" target="17" />
     </bytecodeTargetLevel>
@@ -30,10 +34,14 @@
       <module name="DonationMS" options="-parameters" />
       <module name="OrganisationMS" options="-parameters" />
       <module name="Prometheus-Service" options="-parameters" />
+      <module name="Prometheus_Service" options="-parameters" />
       <module name="appJEE" options="-parameters" />
       <module name="demo" options="-parameters" />
+      <module name="discover-service" options="-parameters" />
+      <module name="donationMS" options="-parameters" />
       <module name="eureka-Service" options="-parameters" />
       <module name="gateway-Service" options="-parameters" />
+      <module name="organisationMS" options="-parameters" />
       <module name="userMS" options="-parameters" />
     </option>
   </component>
